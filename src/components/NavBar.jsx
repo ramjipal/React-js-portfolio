@@ -12,6 +12,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -92,16 +94,26 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/s-satyajit/my-portfolio-satyajitsamal"
+                href="https://www.linkedin.com/in/ramjipal/"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <FaLinkedinIn style={{ fontSize: "1.2em" }} />
               </Button>
+            </Nav.Item>
+            <Nav.Item className="fork-btn">
+              
+                <Button
+                  className="fork-btn-inner"
+                  as="a"
+                  href="mailto:ramjipal85@gmail.com"
+                  target="_blank"
+                >
+                  <SiGmail style={{ fontSize: "1.2em" }} />
+                </Button>
+              
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

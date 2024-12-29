@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import { Home, About, Resume, Footer, Projects} from './components/comp_index'
+
 
 import {Preloader, NavBar, ScrollToTop} from '../src/components/comp_index'
 import {
@@ -7,8 +9,10 @@ import {
   Routes,
   Navigate
 } from 'react-router-dom';
-import './App.css'
 import './style.css'
+import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   const [load, updateLoad] = useState(true)
@@ -22,17 +26,20 @@ function App() {
   }, [])
   return (
     <Router>
-      <Preloader load = {load}/>
-      <div className='App' id = {load ? "no-scroll": "scroll"}></div>
-      <NavBar/>
-      <ScrollToTop/>
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}></div>
+      <NavBar />
+      <ScrollToTop />
       <Routes>
-      <Route path="/" element={<Home />} />
-
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/project" element={<Projects />} />
+        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
-      
+      <Footer />
     </Router>
-  )
+  );
 }
 
 export default App

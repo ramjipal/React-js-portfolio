@@ -1,5 +1,5 @@
 import React from 'react'
-import { Conatainer, Row, Col, Container} from "react-bootstrap";
+import {  Row, Col, Container} from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -33,13 +33,13 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Blockchain.
+                  Machine Learning
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Django and Flask</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +48,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js</b>
               </i>
             </p>
           </Col>
@@ -62,7 +62,7 @@ function Home2() {
           <Col md = {12} className='home-about-social'>
           <h1>FIND ME ON</h1>
           <p>
-               Feel free to <span className='purple'>connect</span>with me
+               Feel free to <span className='purple'>connect </span>with me
 
           </p>
           <ul className='home-about-social-links'>
