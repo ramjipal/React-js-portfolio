@@ -45,3 +45,6 @@ This portfolio showcases my skills in **Web Development** using **React JS** and
 5. Open your browser and visit http://localhost:3000 to view the portfolio locally.
 
 ## Screenshots
+
+![home](https://github.com/user-attachments/assets/e1422326-2564-43a7-a254-952ce4699b31)![about](https://github.com/user-attachments/assets/4ee04156-c61f-4da0-bdcb-5fc2042b816a)
+
