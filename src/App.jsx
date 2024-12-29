@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react'
-import { Home, About, Resume, Footer, Projects} from './components/comp_index'
+import { Home, About, Resume, Footer, Projects, NavBar, Preloader, ScrollToTop} from './components/comp_index'
 
 
-import {Preloader, NavBar, ScrollToTop} from '../src/components/comp_index'
 import {
   BrowserRouter as Router,
   Route,

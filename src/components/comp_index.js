@@ -1,5 +1,5 @@
 import  Preloader  from './Preloader'
-import NavBar from './Navbar';
+import NavBar from './NavBar.jsx';
 import ScrollToTop from './ScrollToTop';
 import Home from './Home/Home';
 import About from './About/About';
