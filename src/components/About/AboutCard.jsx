@@ -8,30 +8,18 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            HI Everyone, I am <span className="purple">Ramji Pal</span>
-            from <span className="purple"> Nagpur, Maharashtra,India.</span>
-            <br />
-            I have completed my B.Tech graduation from YCCE Nagpur in
-            Information Technology and Engineering.
+            Hi, I'm <span className="purple">Ramji Pal</span>, a ServiceNow Developer with nearly 2 years of experience delivering ITSM solutions, custom ServiceNow applications, and secure integrations. I hold a B.Tech in Information Technology from YCCE Nagpur.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            I work extensively with <span className="purple">ITSM</span>, <span className="purple">Flow Designer</span>, <span className="purple">Service Catalog</span>, <span className="purple">REST integrations</span>, and <span className="purple">Service Portal/UI development</span>, and I'm actively exploring <span className="purple">Now Assist</span> and <span className="purple">ServiceNow AI Agents</span> to drive intelligent automation and improve service efficiency. My background in full-stack development supports strong integration design and clean, user-centric solutions.
+            <br />
+            <br />
+            Outside of work, I enjoy playing games, watching web series, and keeping up with tech blogs.
+            <br />
+            <br />
+            — Ramji Pal
           </p>
-          <ul>
-            <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Watching web series
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Reading Tech Blogs
-            </li>
-          </ul>
-
-          <p>"Code with passion, and let your work drive progress!"{" "}</p>
-          <footer className="blockquote-footer">Ramji Pal</footer>
-        </blockquote>
+                  </blockquote>
       </Card.Body>
     </Card>
   );

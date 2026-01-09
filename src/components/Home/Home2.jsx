@@ -11,44 +11,41 @@ import {
 
 function Home2() {
   return (
-    <Container fluid classsName = "home-about-section" id="about">
+    <Container fluid className = "home-about-section" id="about">
      <Container>
      <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              My Journey into <span className="purple">ServiceNow Development</span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I began my career as a <span className="purple">Python full-stack developer</span>, working with Django, Flask, and modern JavaScript frameworks to build web applications and RESTful APIs. This foundation gave me a strong understanding of integrations, backend logic, and UI development, and my early interest in machine learning shaped the way I approach automation and intelligent systems. �
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Java, Javascript and Python. </b>
-              </i>
+              <br />
+              After transitioning into <span className="purple">ServiceNow development</span>, I applied the same engineering mindset to deliver ITSM solutions, custom ServiceNow applications, REST integrations, and Service Portal experiences. Driven by my background in ML, I am particularly focused on <span className="purple">Now Assist</span> and <span className="purple">ServiceNow AI Agents</span>, leveraging AI-driven capabilities to improve incident quality, automate resolutions, and enhance service efficiency across enterprise workflows. 🚀
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Enterprise Solutions and Workflows </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Machine Learning
+                  AI-Powered Service Management
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Django and Flask</b> and
+              with <b className="purple">ServiceNow Platform</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern JavaScript Libraries and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> React.js and ServiceNow Scripting</b>
               </i>
             </p>
           </Col>
