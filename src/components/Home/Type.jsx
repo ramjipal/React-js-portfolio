@@ -7,8 +7,8 @@ function Type() {
       options={{
         strings: [
           "ServiceNow Developer",
-          "ITSM Solutions Architect",
-          "Full-Stack ServiceNow Engineer"
+          "Full-Stack ServiceNow Engineer",
+          "Ai Agent Enthusiast"
         ],
         autoStart: true,
         loop: true,
